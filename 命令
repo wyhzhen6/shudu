@@ -1,0 +1,7 @@
+测试用例
+g++ -w shudu5_test.cc -lgtest -std=c++14 -lgtest_main -lpthread -o my_test
+覆盖率
+g++ -g -fprofile-arcs -ftest-coverage shudu5.cpp
+./a.out 
+lcov --capture --directory . --output-file testcoverage.info
+genhtml --output-directory testcoveragedir testcoverage.info

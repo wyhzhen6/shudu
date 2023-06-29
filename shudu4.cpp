@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <string>
+#include<cstring>
 #include <fstream>
 #include <map>
 using namespace std;
